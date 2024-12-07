@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    android:elevation="4dp"
+    android:id="@+id/item_card_view"
+
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="48dp"
+            android:text="text"
+            android:id="@+id/product_digit_view"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/navy_100"/>
+
+        <TextView
+            android:id="@+id/product_text_view"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="text"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/navy_100"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:id="@+id/product_image_view"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:id="@+id/product_price_view"
+            android:text="text"
+            android:layout_gravity="bottom"
+            android:textSize="18sp"
+            android:textColor="#B71C1C"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
